@@ -1,9 +1,5 @@
 import pytest
-from main import BooksCollector
 
-@pytest.fixture
-def collector():
-    return BooksCollector()
 
 # Тесты для метода add_new_book
 def test_add_new_book(collector):
